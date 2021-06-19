@@ -3,7 +3,7 @@
 
 /*1*/
 
-float average(int s[], int l) {*
+float average(int s[], int l) {
     int sum = 0;
     float avg = 0.0;
     for (int i=0; i<l; i++) {
