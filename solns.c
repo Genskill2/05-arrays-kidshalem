@@ -58,7 +58,7 @@ int max(int array[], int size){
 
 /*4*/
 
-int max(int array[], int size){  
+int min(int array[], int size){  
   
   int smallest = array[0];
  
