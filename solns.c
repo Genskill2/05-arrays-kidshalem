@@ -65,7 +65,7 @@ int min(int array[], int size){
         for (int i = 1; i < size; i++) 
         {
             if (smallest > array[i])
-            Smallest = array[i];
+            smallest = array[i];
         }
  
         
