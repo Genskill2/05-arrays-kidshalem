@@ -32,3 +32,23 @@ int max(int array[], int size){
         return largest;
  
 }
+
+
+
+/*4*/
+
+int max(int array[], int size){  
+  
+  int smallest = array[0];
+ 
+        for (int i = 1; i < size; i++) 
+        {
+            if (smallest > array[i])
+            Smallest = array[i];
+        }
+ 
+        
+ 
+        return smallest;
+ 
+}
