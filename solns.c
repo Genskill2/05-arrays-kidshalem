@@ -13,3 +13,22 @@ float average(int s[], int l) {*
     return avg;
 }     
 
+
+
+/*3*/
+
+int max(int array[], int size){  
+  
+  int largest = array[0];
+ 
+        for (int i = 1; i < size; i++) 
+        {
+            if (largest < array[i])
+            largest = array[i];
+        }
+ 
+        
+ 
+        return largest;
+ 
+}
